@@ -1,0 +1,33 @@
+ul {
+  padding:0;
+   text-align: left;
+  font-size:10px;
+  font-family: Myriad Pro;
+   
+}
+
+li li {
+   max-height:0;
+   overflow: hidden;
+   border:none;
+   margin:0
+   float:left;
+    
+   
+   
+    
+}
+
+ li:hover {
+   background: #89285F
+   
+ 
+}
+
+li li:hover {
+   background: #FCC188;
+}
+
+li:hover li {
+  max-height: 5em;
+}
